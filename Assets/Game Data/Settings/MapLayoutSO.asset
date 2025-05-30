@@ -1,0 +1,771 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 773ee6792ab9f6647a68ec39c267f385, type: 3}
+  m_Name: MapLayoutSO
+  m_EditorClassIdentifier: 
+  mapRoomDataList:
+  - posX: -20.333334
+    posY: 3
+    column: 0
+    row: 0
+    roomData: {fileID: 11400000, guid: 014ea5206139c684ea413d360e8ea94e, type: 2}
+    roomState: 2
+    linkTo:
+    - {x: 1, y: 2}
+  - posX: -20.333334
+    posY: 0
+    column: 0
+    row: 1
+    roomData: {fileID: 11400000, guid: 014ea5206139c684ea413d360e8ea94e, type: 2}
+    roomState: 2
+    linkTo:
+    - {x: 1, y: 0}
+  - posX: -20.333334
+    posY: -3
+    column: 0
+    row: 2
+    roomData: {fileID: 11400000, guid: 014ea5206139c684ea413d360e8ea94e, type: 2}
+    roomState: 2
+    linkTo:
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+  - posX: -17.578157
+    posY: 3
+    column: 1
+    row: 0
+    roomData: {fileID: 11400000, guid: cfb0ba94fc8d94246aa2c9bb365f635e, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 2, y: 0}
+  - posX: -17.800138
+    posY: 0
+    column: 1
+    row: 1
+    roomData: {fileID: 11400000, guid: 014ea5206139c684ea413d360e8ea94e, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 2, y: 1}
+  - posX: -17.731329
+    posY: -3
+    column: 1
+    row: 2
+    roomData: {fileID: 11400000, guid: cfb0ba94fc8d94246aa2c9bb365f635e, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 2, y: 0}
+  - posX: -14.654918
+    posY: 2
+    column: 2
+    row: 0
+    roomData: {fileID: 11400000, guid: 014ea5206139c684ea413d360e8ea94e, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 3, y: 2}
+  - posX: -15.200285
+    posY: -2
+    column: 2
+    row: 1
+    roomData: {fileID: 11400000, guid: 014ea5206139c684ea413d360e8ea94e, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 3, y: 0}
+    - {x: 3, y: 1}
+  - posX: -11.921859
+    posY: 3
+    column: 3
+    row: 0
+    roomData: {fileID: 11400000, guid: b368318a4adc78246ac627f1ff439c69, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 4, y: 1}
+  - posX: -12.29859
+    posY: 0
+    column: 3
+    row: 1
+    roomData: {fileID: 11400000, guid: b368318a4adc78246ac627f1ff439c69, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 4, y: 0}
+  - posX: -12.262951
+    posY: -3
+    column: 3
+    row: 2
+    roomData: {fileID: 11400000, guid: 014ea5206139c684ea413d360e8ea94e, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 4, y: 0}
+  - posX: -9.798738
+    posY: 2
+    column: 4
+    row: 0
+    roomData: {fileID: 11400000, guid: cfb0ba94fc8d94246aa2c9bb365f635e, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 5, y: 3}
+    - {x: 5, y: 2}
+  - posX: -9.276261
+    posY: -2
+    column: 4
+    row: 1
+    roomData: {fileID: 11400000, guid: cfb0ba94fc8d94246aa2c9bb365f635e, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 5, y: 3}
+    - {x: 5, y: 0}
+    - {x: 5, y: 1}
+  - posX: -6.904493
+    posY: 3.6
+    column: 5
+    row: 0
+    roomData: {fileID: 11400000, guid: 150d69636c3b3ec48884473d150283c2, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 6, y: 1}
+  - posX: -6.5588226
+    posY: 1.1999998
+    column: 5
+    row: 1
+    roomData: {fileID: 11400000, guid: 150d69636c3b3ec48884473d150283c2, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 6, y: 0}
+  - posX: -7.085031
+    posY: -1.2000003
+    column: 5
+    row: 2
+    roomData: {fileID: 11400000, guid: 014ea5206139c684ea413d360e8ea94e, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 6, y: 0}
+  - posX: -6.866528
+    posY: -3.6000004
+    column: 5
+    row: 3
+    roomData: {fileID: 11400000, guid: 014ea5206139c684ea413d360e8ea94e, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 6, y: 1}
+  - posX: -4.3148575
+    posY: 2
+    column: 6
+    row: 0
+    roomData: {fileID: 11400000, guid: 014ea5206139c684ea413d360e8ea94e, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 7, y: 1}
+  - posX: -4.1154776
+    posY: -2
+    column: 6
+    row: 1
+    roomData: {fileID: 11400000, guid: b368318a4adc78246ac627f1ff439c69, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 7, y: 1}
+    - {x: 7, y: 0}
+  - posX: -1.0957954
+    posY: 2
+    column: 7
+    row: 0
+    roomData: {fileID: 11400000, guid: 150d69636c3b3ec48884473d150283c2, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 8, y: 0}
+  - posX: -1.2913091
+    posY: -2
+    column: 7
+    row: 1
+    roomData: {fileID: 11400000, guid: 150d69636c3b3ec48884473d150283c2, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 8, y: 1}
+  - posX: 1.1626424
+    posY: 2
+    column: 8
+    row: 0
+    roomData: {fileID: 11400000, guid: 150d69636c3b3ec48884473d150283c2, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 9, y: 1}
+  - posX: 1.3452935
+    posY: -2
+    column: 8
+    row: 1
+    roomData: {fileID: 11400000, guid: 150d69636c3b3ec48884473d150283c2, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 9, y: 0}
+    - {x: 9, y: 2}
+  - posX: 4.068197
+    posY: 3
+    column: 9
+    row: 0
+    roomData: {fileID: 11400000, guid: cfb0ba94fc8d94246aa2c9bb365f635e, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 10, y: 1}
+  - posX: 4.03612
+    posY: 0
+    column: 9
+    row: 1
+    roomData: {fileID: 11400000, guid: 150d69636c3b3ec48884473d150283c2, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 10, y: 0}
+  - posX: 4.0706434
+    posY: -3
+    column: 9
+    row: 2
+    roomData: {fileID: 11400000, guid: cfb0ba94fc8d94246aa2c9bb365f635e, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 10, y: 2}
+  - posX: 7.0005145
+    posY: 3
+    column: 10
+    row: 0
+    roomData: {fileID: 11400000, guid: 150d69636c3b3ec48884473d150283c2, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 11, y: 0}
+  - posX: 6.8387265
+    posY: 0
+    column: 10
+    row: 1
+    roomData: {fileID: 11400000, guid: 150d69636c3b3ec48884473d150283c2, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 11, y: 0}
+  - posX: 7.087292
+    posY: -3
+    column: 10
+    row: 2
+    roomData: {fileID: 11400000, guid: 150d69636c3b3ec48884473d150283c2, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 11, y: 0}
+    - {x: 11, y: 1}
+  - posX: 9.516261
+    posY: 2
+    column: 11
+    row: 0
+    roomData: {fileID: 11400000, guid: 150d69636c3b3ec48884473d150283c2, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 12, y: 1}
+  - posX: 9.3934765
+    posY: -2
+    column: 11
+    row: 1
+    roomData: {fileID: 11400000, guid: 150d69636c3b3ec48884473d150283c2, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 12, y: 1}
+    - {x: 12, y: 0}
+    - {x: 12, y: 2}
+  - posX: 11.915752
+    posY: 3
+    column: 12
+    row: 0
+    roomData: {fileID: 11400000, guid: b368318a4adc78246ac627f1ff439c69, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 13, y: 1}
+  - posX: 12.048608
+    posY: 0
+    column: 12
+    row: 1
+    roomData: {fileID: 11400000, guid: 150d69636c3b3ec48884473d150283c2, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 13, y: 2}
+  - posX: 12.059296
+    posY: -3
+    column: 12
+    row: 2
+    roomData: {fileID: 11400000, guid: b368318a4adc78246ac627f1ff439c69, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 13, y: 1}
+    - {x: 13, y: 0}
+  - posX: 14.58264
+    posY: 3
+    column: 13
+    row: 0
+    roomData: {fileID: 11400000, guid: 150d69636c3b3ec48884473d150283c2, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 14, y: 0}
+  - posX: 14.623606
+    posY: 0
+    column: 13
+    row: 1
+    roomData: {fileID: 11400000, guid: 150d69636c3b3ec48884473d150283c2, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 14, y: 2}
+  - posX: 14.62516
+    posY: -3
+    column: 13
+    row: 2
+    roomData: {fileID: 11400000, guid: 150d69636c3b3ec48884473d150283c2, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 14, y: 0}
+    - {x: 14, y: 1}
+  - posX: 17.745064
+    posY: 3
+    column: 14
+    row: 0
+    roomData: {fileID: 11400000, guid: b3b3352ab620a9b4c82fd2d718e18703, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 15, y: 0}
+  - posX: 17.549095
+    posY: 0
+    column: 14
+    row: 1
+    roomData: {fileID: 11400000, guid: b3b3352ab620a9b4c82fd2d718e18703, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 15, y: 0}
+  - posX: 17.653633
+    posY: -3
+    column: 14
+    row: 2
+    roomData: {fileID: 11400000, guid: b3b3352ab620a9b4c82fd2d718e18703, type: 2}
+    roomState: 0
+    linkTo:
+    - {x: 15, y: 0}
+  - posX: 20.326517
+    posY: 0
+    column: 15
+    row: 0
+    roomData: {fileID: 11400000, guid: 01f8db6bef5f73f42aaff015571ff4bf, type: 2}
+    roomState: 0
+    linkTo: []
+  linePositionList:
+  - startPos:
+      x: -20.333334
+      y: 3
+      z: 0
+    endPos:
+      x: -17.731329
+      y: -3
+      z: 0
+  - startPos:
+      x: -20.333334
+      y: 0
+      z: 0
+    endPos:
+      x: -17.578157
+      y: 3
+      z: 0
+  - startPos:
+      x: -20.333334
+      y: -3
+      z: 0
+    endPos:
+      x: -17.578157
+      y: 3
+      z: 0
+  - startPos:
+      x: -17.800138
+      y: 0
+      z: 0
+    endPos:
+      x: -20.333334
+      y: -3
+      z: 0
+  - startPos:
+      x: -17.578157
+      y: 3
+      z: 0
+    endPos:
+      x: -14.654918
+      y: 2
+      z: 0
+  - startPos:
+      x: -17.800138
+      y: 0
+      z: 0
+    endPos:
+      x: -15.200285
+      y: -2
+      z: 0
+  - startPos:
+      x: -17.731329
+      y: -3
+      z: 0
+    endPos:
+      x: -14.654918
+      y: 2
+      z: 0
+  - startPos:
+      x: -14.654918
+      y: 2
+      z: 0
+    endPos:
+      x: -12.262951
+      y: -3
+      z: 0
+  - startPos:
+      x: -15.200285
+      y: -2
+      z: 0
+    endPos:
+      x: -11.921859
+      y: 3
+      z: 0
+  - startPos:
+      x: -12.29859
+      y: 0
+      z: 0
+    endPos:
+      x: -15.200285
+      y: -2
+      z: 0
+  - startPos:
+      x: -11.921859
+      y: 3
+      z: 0
+    endPos:
+      x: -9.276261
+      y: -2
+      z: 0
+  - startPos:
+      x: -12.29859
+      y: 0
+      z: 0
+    endPos:
+      x: -9.798738
+      y: 2
+      z: 0
+  - startPos:
+      x: -12.262951
+      y: -3
+      z: 0
+    endPos:
+      x: -9.798738
+      y: 2
+      z: 0
+  - startPos:
+      x: -9.798738
+      y: 2
+      z: 0
+    endPos:
+      x: -6.866528
+      y: -3.6000004
+      z: 0
+  - startPos:
+      x: -9.276261
+      y: -2
+      z: 0
+    endPos:
+      x: -6.866528
+      y: -3.6000004
+      z: 0
+  - startPos:
+      x: -6.904493
+      y: 3.6
+      z: 0
+    endPos:
+      x: -9.276261
+      y: -2
+      z: 0
+  - startPos:
+      x: -6.5588226
+      y: 1.1999998
+      z: 0
+    endPos:
+      x: -9.276261
+      y: -2
+      z: 0
+  - startPos:
+      x: -7.085031
+      y: -1.2000003
+      z: 0
+    endPos:
+      x: -9.798738
+      y: 2
+      z: 0
+  - startPos:
+      x: -6.904493
+      y: 3.6
+      z: 0
+    endPos:
+      x: -4.1154776
+      y: -2
+      z: 0
+  - startPos:
+      x: -6.5588226
+      y: 1.1999998
+      z: 0
+    endPos:
+      x: -4.3148575
+      y: 2
+      z: 0
+  - startPos:
+      x: -7.085031
+      y: -1.2000003
+      z: 0
+    endPos:
+      x: -4.3148575
+      y: 2
+      z: 0
+  - startPos:
+      x: -6.866528
+      y: -3.6000004
+      z: 0
+    endPos:
+      x: -4.1154776
+      y: -2
+      z: 0
+  - startPos:
+      x: -4.3148575
+      y: 2
+      z: 0
+    endPos:
+      x: -1.2913091
+      y: -2
+      z: 0
+  - startPos:
+      x: -4.1154776
+      y: -2
+      z: 0
+    endPos:
+      x: -1.2913091
+      y: -2
+      z: 0
+  - startPos:
+      x: -1.0957954
+      y: 2
+      z: 0
+    endPos:
+      x: -4.1154776
+      y: -2
+      z: 0
+  - startPos:
+      x: -1.0957954
+      y: 2
+      z: 0
+    endPos:
+      x: 1.1626424
+      y: 2
+      z: 0
+  - startPos:
+      x: -1.2913091
+      y: -2
+      z: 0
+    endPos:
+      x: 1.3452935
+      y: -2
+      z: 0
+  - startPos:
+      x: 1.1626424
+      y: 2
+      z: 0
+    endPos:
+      x: 4.03612
+      y: 0
+      z: 0
+  - startPos:
+      x: 1.3452935
+      y: -2
+      z: 0
+    endPos:
+      x: 4.068197
+      y: 3
+      z: 0
+  - startPos:
+      x: 4.0706434
+      y: -3
+      z: 0
+    endPos:
+      x: 1.3452935
+      y: -2
+      z: 0
+  - startPos:
+      x: 4.068197
+      y: 3
+      z: 0
+    endPos:
+      x: 6.8387265
+      y: 0
+      z: 0
+  - startPos:
+      x: 4.03612
+      y: 0
+      z: 0
+    endPos:
+      x: 7.0005145
+      y: 3
+      z: 0
+  - startPos:
+      x: 4.0706434
+      y: -3
+      z: 0
+    endPos:
+      x: 7.087292
+      y: -3
+      z: 0
+  - startPos:
+      x: 7.0005145
+      y: 3
+      z: 0
+    endPos:
+      x: 9.516261
+      y: 2
+      z: 0
+  - startPos:
+      x: 6.8387265
+      y: 0
+      z: 0
+    endPos:
+      x: 9.516261
+      y: 2
+      z: 0
+  - startPos:
+      x: 7.087292
+      y: -3
+      z: 0
+    endPos:
+      x: 9.516261
+      y: 2
+      z: 0
+  - startPos:
+      x: 9.3934765
+      y: -2
+      z: 0
+    endPos:
+      x: 7.087292
+      y: -3
+      z: 0
+  - startPos:
+      x: 9.516261
+      y: 2
+      z: 0
+    endPos:
+      x: 12.048608
+      y: 0
+      z: 0
+  - startPos:
+      x: 9.3934765
+      y: -2
+      z: 0
+    endPos:
+      x: 12.048608
+      y: 0
+      z: 0
+  - startPos:
+      x: 11.915752
+      y: 3
+      z: 0
+    endPos:
+      x: 9.3934765
+      y: -2
+      z: 0
+  - startPos:
+      x: 12.059296
+      y: -3
+      z: 0
+    endPos:
+      x: 9.3934765
+      y: -2
+      z: 0
+  - startPos:
+      x: 11.915752
+      y: 3
+      z: 0
+    endPos:
+      x: 14.623606
+      y: 0
+      z: 0
+  - startPos:
+      x: 12.048608
+      y: 0
+      z: 0
+    endPos:
+      x: 14.62516
+      y: -3
+      z: 0
+  - startPos:
+      x: 12.059296
+      y: -3
+      z: 0
+    endPos:
+      x: 14.623606
+      y: 0
+      z: 0
+  - startPos:
+      x: 14.58264
+      y: 3
+      z: 0
+    endPos:
+      x: 12.059296
+      y: -3
+      z: 0
+  - startPos:
+      x: 14.58264
+      y: 3
+      z: 0
+    endPos:
+      x: 17.745064
+      y: 3
+      z: 0
+  - startPos:
+      x: 14.623606
+      y: 0
+      z: 0
+    endPos:
+      x: 17.653633
+      y: -3
+      z: 0
+  - startPos:
+      x: 14.62516
+      y: -3
+      z: 0
+    endPos:
+      x: 17.745064
+      y: 3
+      z: 0
+  - startPos:
+      x: 17.549095
+      y: 0
+      z: 0
+    endPos:
+      x: 14.62516
+      y: -3
+      z: 0
+  - startPos:
+      x: 17.745064
+      y: 3
+      z: 0
+    endPos:
+      x: 20.326517
+      y: 0
+      z: 0
+  - startPos:
+      x: 17.549095
+      y: 0
+      z: 0
+    endPos:
+      x: 20.326517
+      y: 0
+      z: 0
+  - startPos:
+      x: 17.653633
+      y: -3
+      z: 0
+    endPos:
+      x: 20.326517
+      y: 0
+      z: 0

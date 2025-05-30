@@ -1,0 +1,12 @@
+.trunbutton {
+}
+
+.trunbutton:hover {
+    scale: 1.1 1.1;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out-back;
+}
+
+.trunbutton:active {
+    scale: 1.3 1.3;
+}
