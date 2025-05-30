@@ -91,3 +91,7 @@ Assets/Art/
 .utmp/
 build/
 *.rar # 忽略像 "1.1版本.rar" 这样的压缩包，这些通常也很大且不应该在Git中
+
+
+# My custom ignore rules
+Assets/WhatSoundsNice/
